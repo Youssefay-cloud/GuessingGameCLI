@@ -59,7 +59,7 @@ public class GuessingGame {
                     System.out.println("Incorrect! The number is less than " + guess);
                 }
                 if(guess == randINT){
-                    System.out.println("Congratulation You are right it is " + guess);
+                    System.out.println("You guessed the correct number in " + maxt + "Attempts.");
                     return;
                 }
         
@@ -87,7 +87,7 @@ public class GuessingGame {
                 }if(guess > randINT){
                     System.out.println("Incorrect! The number is less than " + guess);
                 }if(guess == randINT){
-                    System.out.println("Congratulation You are right it is " + guess);
+                    System.out.println("You guessed the correct number in " + maxt + "Attempts.");
                     return;
                 }
             }
@@ -116,7 +116,7 @@ public class GuessingGame {
                 }if(guess > randINT){
                     System.out.println("Incorrect! The number is less than " + guess);
                 }if(guess == randINT){
-                    System.out.println("Congratulation You are right it is " + guess);
+                    System.out.println("You guessed the correct number in " + maxt + "Attempts.");
                     return;
                 }
             }
